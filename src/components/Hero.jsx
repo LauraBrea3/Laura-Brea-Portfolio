@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
 
 export default function Hero() {
-    const heroStyles = {backgroundColor:"rgb(206,130,255)", height:"100vh"}
+    const heroStyles = {backgroundColor:"rgb(206,130,255)", height:"50vh"}
 
   return (
     <div style={heroStyles}>
