@@ -6,14 +6,14 @@ export default function Hero() {
     const heroStyles = {backgroundColor:"rgb(206,130,255)", height:"50vh"}
 
   return (
-    <div style={heroStyles}>
-        <div>
+    <div className="heroStyles">
+        <div className="myName">
             Laura Elena Brea
         </div>
-        <div>
-            Software Engineer : Back-End Developer
+        <div className="goals">
+            Back-End Developer
         </div>
-        <Button variant="warning"><a href="https://www.linkedin.com/in/laura-brea-b55b9a186/">Contact Me!</a></Button>{' '}
+        
     </div>
   )
 }

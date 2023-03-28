@@ -11,10 +11,30 @@
   width:18rem;
   display: inline-block;
   padding-left: 10px;
+  text-align: center;
 }
 
 .projects {
-  align-items: center;
+  text-align: center;
+  background-color: pink;
+  display: center;
+}
+
+.heroStyles {
+  background-color:rgb(206,130,255);
+  height:50vh
+
+}
+
+.myName {
+  text-align: center;
+  font-size: 2em;
+}
+
+.goals {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
